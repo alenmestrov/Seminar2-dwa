@@ -1,0 +1,237 @@
+/*--------- INDEX.PHP ---------*/
+
+body{
+	margin:0;
+}
+
+.header{
+	position:relative;
+	background:#34495e;
+	width:100%;
+	height:75px;
+}
+
+.logo{
+	margin-left:2%;
+	position:absolute;
+	height:75px;
+	width:75px;
+}
+
+.login{
+	position:absolute;
+	font-family:"Segoe UI";
+	text-decoration:none;
+	right:5%;
+	top:26%;
+	font-size:1.2em;
+	padding:5px 21px 8px 21px;
+	background:#16a085;
+	color:white;
+	transition:500ms;
+
+}
+.registracija{
+	position:absolute;
+	font-family:"Segoe UI";
+	text-decoration:none;
+	
+	top:26%;
+	left:80%;
+	font-size:1.2em;
+	padding:5px 21px 8px 21px;
+	background:#16a085;
+	color:white;
+	transition:500ms;
+}
+.login:hover{
+	transition:500ms;
+	background:#1abc9c;
+}
+
+.site_name{
+	position:absolute;
+	font-family:"Segoe UI Light";
+	font-size:1.5em;
+	color:white;
+	text-decoration:none;
+	left:10%;
+	top:25%;
+}
+.ul{
+	margin:20px 0px;
+	padding:0px 5px;
+}
+
+.sidebar{
+	background:#BDC3C7;
+	float:left;
+	min-height:520px;
+	
+}
+
+.active{
+	padding:15px 50px;
+	border:1px solid black;
+	color:black;
+	transition:500ms;
+}
+
+.active:hover{
+	transition:300ms;
+	border:1px solid white;
+	color:white;
+	background:#1ABC9C;
+}
+
+.li{
+	padding:15px 50px;
+	color:black;
+	transition:600ms;
+}
+
+.li:hover{
+	transition:200ms;
+	background:#16A085;
+	color:white;
+}
+
+.item{
+	list-style-type:none;
+	text-decoration:none;
+	font-size:1.3em;
+	font-family:"Segoe UI Light";
+}
+
+.item:hover{
+	transition:200ms;
+}
+
+.main{
+	background:#ECF0F1;
+	min-height:500px;
+	padding:10px 10px 10px 212px;
+}
+
+.footer{
+	height:50px;
+	width:100%;
+	background:#34495e;
+}
+
+.copy{
+	position:absolute;
+	left:50%;
+	margin-left:-140px;
+	margin-top:15px;
+	font-family:"Segoe UI Light";
+	color:white;
+}
+
+.webadmin{
+	background:#16a085;
+	position:absolute;
+	right:35px;
+	padding:5px 15px;
+	margin-top:10px;
+	text-decoration:none;
+	font-family:"Segoe UI";
+	color:white;
+	transition:500ms;
+}
+
+.webadmin:hover{
+	transition:300ms;
+	background:#1abc9c;
+}
+
+/*------------- LOGIN.PHP ------------------*/
+
+.login-div{
+	background:#2c3e50;
+	width:100%;
+	height:800px;
+}
+
+.login-form{
+	position:absolute;
+	background:#16a085;
+	width:270px;
+	left:50%;
+	margin-left:-155px;
+	height:200px;
+	top:200px;
+	padding:20px;
+}
+
+.username-label{
+	font-family:"Segoe UI Light";
+	font-size:1.2em;
+	padding-left:10px;
+	color:white;
+}
+
+.password-label{
+	font-family:"Segoe UI Light";
+	font-size:1.2em;
+	padding-left:10px;
+	color:white;
+}
+
+.username{
+	border:none;
+	padding:5px;
+	margin:10px 5px 10px 10px;
+	font-family:monospace;
+}
+
+.password{
+	border:none;
+	padding:5px;
+	margin:10px 5px 10px 10px;
+	font-family:monospace;
+}
+
+.loginBtn{
+	border:none;
+	padding:5px 15px 7px 15px;
+	font-size:1.1em;
+	color:white;
+	position:absolute;
+	background:#2980b9;
+	right:30px;
+	font-family:"Segoe UI";
+	cursor:pointer;
+	transition:500ms;
+}
+
+.loginBtn:hover{
+	transition:300ms;
+	background:#3498db;
+}
+
+.lf{
+	position:absolute;
+	color:red;
+	font-family:"Segoe UI";
+	margin-top:50px;
+	top:400px;
+	left:50%;
+	margin-left:-107px;
+}
+.button{
+font-family:"Segoe UI";
+	text-decoration:none;
+	font-size:1.2em;
+	padding:5px 21px 8px 21px;
+	background:#16a085;
+	color:white;
+	transition:500ms;
+}
+.button:hover{
+	transition:500ms;
+	background:#1abc9c;
+
+}
+
+
